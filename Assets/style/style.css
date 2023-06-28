@@ -31,7 +31,7 @@ nav{
 }
 
 hr1, hr2 {
-  list-style: lightgrey;
+  list-style: black;
 }
 
 .Highlight {
@@ -50,10 +50,7 @@ hr1, hr2 {
   height: 165px; 
 }
 
-.Picture1{
-  width: auto;
-  height: 165px; 
-}
+
 
 .PicBox .Picboxpoint {
   display: none;
@@ -64,37 +61,82 @@ hr1, hr2 {
   display: block;
 }
 
-.SubSecitionHeader {
-   margin-right:10%
-}
+
 
 .SubSecition{
-  display: flex;
-  flex-direction: row;
   font-family: var(--homepagefont);
-  
+  margin-top: 50px;
+  margin-bottom: 3%;
+  margin-right:5%;
+  margin-left:5%;
 }
 
-.ProjectsAI {
-  width: 10px;
-  height: 10px;
+.SubMe{
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  margin-left: 3%;
 }
 
-.ProjectsAI1:hover {
-  width: 20px;
-  height: 20px;
+
+
+.SubApp{
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+  margin-left: 3%;
 }
 
-.ProjectsAI2:hover {
+.SubPic { 
+  width: 20%;
+  height: 165px;
+  margin:5%;
+}
+
+.SubPic1 { 
+  width: 20%;
+  height: 165px;
+  margin:5%;
+}
+
+.SubPic1:hover { 
+  width: 30%;
+  height: 180px;
+  margin:5%;
+}
+
+.Picture1{
+  margin:5%;
   width: auto;
-  height: 30%;
+  height: 165px; 
 }
 
-.ProjectsAI3:hover {
-  width: auto;
-  height: 30%;
+.AboutMeText{
+  display: flex;
+  justify-content: flex-end;
 }
 
+.textline{
+  margin: 10%;
+}
+
+.specialfont{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.SubLife{
+  display:flex;
+  margin-top:2%;
+  flex-direction: row;
+  margin-bottom: 5px;
+  margin-left: 3%; 
+}
+
+.piccenter{
+  display: felx;
+  align-content: center;
+
+}
 .contact{
   display: flex;
   font-family: var(--homepagefont);
@@ -145,14 +187,15 @@ footer h4 {
 @media screen and (max-width: 768px) {
   .PictureContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 3%; 
     justify-content: center;
     flex-grow: 0;
-    width: auto;
-    height: 165px;
-  }
   
+  }
+  hr{
+    display:none
+  }
   footer h4 {
     font-weight: normal;
     margin-top: 10%;

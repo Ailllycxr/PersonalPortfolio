@@ -33,6 +33,11 @@ hr1, hr2 {
   list-style: lightgrey;
 }
 
+h2.HighLight{
+  text-align: center;
+  font-size: 50px;
+}
+
 .PictureContainer {
   display: flex;
   flex-direction: row;
@@ -46,6 +51,15 @@ hr1, hr2 {
 .Picture1{
   width: auto;
   height: 165px; 
+}
+
+.PicBox .Picboxpoint {
+  display: none;
+  padding: 1% 0;
+}
+
+.PicBox:hover .Picboxpoint {
+  display: block;
 }
 
 .contact{

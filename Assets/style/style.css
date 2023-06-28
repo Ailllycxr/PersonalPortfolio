@@ -78,8 +78,6 @@ hr1, hr2 {
   margin-left: 3%;
 }
 
-
-
 .SubApp{
   display:flex;
   flex-direction: row;
@@ -185,17 +183,35 @@ footer h4 {
 }
 
 @media screen and (max-width: 768px) {
+
   .PictureContainer{
     display: flex;
     flex-direction: row;
-    margin: 3%; 
-    justify-content: center;
-    flex-grow: 0;
-  
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width:auto;
+    height:20%;
+    
+  } 
+  .PicBox{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 5%;
   }
+
+  .Pirture1{
+    width: auto;
+    height: 5%;
+  }
+  
+
   hr{
     display:none
   }
+
   footer h4 {
     font-weight: normal;
     margin-top: 10%;
